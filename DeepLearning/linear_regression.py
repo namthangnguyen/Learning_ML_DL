@@ -38,4 +38,3 @@ plt.show()
 x1 = 50
 y1 = w[0] + w[1]*x1
 print('Giá dự đoán cho căn nhà ' + str(x1) + ' là: ' + str(y1))
-

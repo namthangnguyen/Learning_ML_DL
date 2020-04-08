@@ -89,7 +89,7 @@ class NeuralNetwork:
 
 
 # Dataset bài 2
-data = pd.read_csv('dataset.csv').values
+data = pd.read_csv('data_logistic.csv').values
 N, d = data.shape
 X = data[:, 0:d-1].reshape(-1, d-1)
 y = data[:, 2].reshape(-1, 1)
