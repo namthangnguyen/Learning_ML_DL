@@ -17,10 +17,8 @@ class NeuralNetwork:
     def __init__(self, layers, alpha=0.1):
         # Mô hình layers, ví dụ [2, 2, 1]
         self.layers = layers
-
         # Hệ số learning rate
         self.alpha = alpha
-
         # Tham số W, b
         self.W = []
         self.b = []
