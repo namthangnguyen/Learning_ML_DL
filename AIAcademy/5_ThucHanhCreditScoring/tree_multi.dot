@@ -1,0 +1,32 @@
+digraph Tree {
+node [shape=box] ;
+0 [label="displacement <= 190.5\nmse = 60.763\nsamples = 392\nvalue = 23.446"] ;
+1 [label="horsepower <= 70.5\nmse = 35.072\nsamples = 222\nvalue = 28.642"] ;
+0 -> 1 [labeldistance=2.5, labelangle=45, headlabel="True"] ;
+2 [label="model year <= 77.5\nmse = 25.405\nsamples = 71\nvalue = 33.666"] ;
+1 -> 2 ;
+3 [label="mse = 10.009\nsamples = 28\nvalue = 29.75"] ;
+2 -> 3 ;
+4 [label="mse = 18.941\nsamples = 43\nvalue = 36.216"] ;
+2 -> 4 ;
+5 [label="model year <= 78.5\nmse = 22.169\nsamples = 151\nvalue = 26.28"] ;
+1 -> 5 ;
+6 [label="mse = 13.001\nsamples = 94\nvalue = 24.12"] ;
+5 -> 6 ;
+7 [label="mse = 16.908\nsamples = 57\nvalue = 29.842"] ;
+5 -> 7 ;
+8 [label="horsepower <= 127.0\nmse = 13.001\nsamples = 170\nvalue = 16.66"] ;
+0 -> 8 [labeldistance=2.5, labelangle=-45, headlabel="False"] ;
+9 [label="model year <= 81.5\nmse = 10.026\nsamples = 74\nvalue = 19.438"] ;
+8 -> 9 ;
+10 [label="mse = 5.342\nsamples = 72\nvalue = 19.144"] ;
+9 -> 10 ;
+11 [label="mse = 64.0\nsamples = 2\nvalue = 30.0"] ;
+9 -> 11 ;
+12 [label="model year <= 76.5\nmse = 4.761\nsamples = 96\nvalue = 14.519"] ;
+8 -> 12 ;
+13 [label="mse = 3.136\nsamples = 76\nvalue = 13.822"] ;
+12 -> 13 ;
+14 [label="mse = 2.09\nsamples = 20\nvalue = 17.165"] ;
+12 -> 14 ;
+}

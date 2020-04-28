@@ -1,0 +1,32 @@
+digraph Tree {
+node [shape=box] ;
+0 [label="NumberOfTimes90DaysLate <= 0.5\ngini = 0.129\nsamples = 120269\nvalue = [111912, 8357]"] ;
+1 [label="RevolvingUtilizationOfUnsecuredLines <= 0.548\ngini = 0.093\nsamples = 113544\nvalue = [107978, 5566]"] ;
+0 -> 1 [labeldistance=2.5, labelangle=45, headlabel="True"] ;
+2 [label="NumberOfTime60-89DaysPastDueNotWorse <= 0.5\ngini = 0.051\nsamples = 86768\nvalue = [84494, 2274]"] ;
+1 -> 2 ;
+3 [label="gini = 0.045\nsamples = 84825\nvalue = [82862, 1963]"] ;
+2 -> 3 ;
+4 [label="gini = 0.269\nsamples = 1943\nvalue = [1632, 311]"] ;
+2 -> 4 ;
+5 [label="NumberOfTime30-59DaysPastDueNotWorse <= 0.5\ngini = 0.216\nsamples = 26776\nvalue = [23484, 3292]"] ;
+1 -> 5 ;
+6 [label="gini = 0.156\nsamples = 19817\nvalue = [18124, 1693]"] ;
+5 -> 6 ;
+7 [label="gini = 0.354\nsamples = 6959\nvalue = [5360, 1599]"] ;
+5 -> 7 ;
+8 [label="NumberOfTimes90DaysLate <= 1.5\ngini = 0.486\nsamples = 6725\nvalue = [3934, 2791]"] ;
+0 -> 8 [labeldistance=2.5, labelangle=-45, headlabel="False"] ;
+9 [label="NumberOfTime60-89DaysPastDueNotWorse <= 0.5\ngini = 0.447\nsamples = 4312\nvalue = [2861, 1451]"] ;
+8 -> 9 ;
+10 [label="gini = 0.407\nsamples = 3202\nvalue = [2293, 909]"] ;
+9 -> 10 ;
+11 [label="gini = 0.5\nsamples = 1110\nvalue = [568, 542]"] ;
+9 -> 11 ;
+12 [label="NumberOfTime30-59DaysPastDueNotWorse <= 0.5\ngini = 0.494\nsamples = 2413\nvalue = [1073, 1340]"] ;
+8 -> 12 ;
+13 [label="gini = 0.499\nsamples = 934\nvalue = [486, 448]"] ;
+12 -> 13 ;
+14 [label="gini = 0.479\nsamples = 1479\nvalue = [587, 892]"] ;
+12 -> 14 ;
+}
