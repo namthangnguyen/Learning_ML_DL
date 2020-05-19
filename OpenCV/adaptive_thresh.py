@@ -19,4 +19,3 @@ img_grayscale = cv2.imread(input_img_path, cv2.IMREAD_GRAYSCALE)
 
 img_binary = convert_to_binary(img_grayscale)
 cv2.imwrite('data/adaptive_%s' % os.path.basename(input_img_path), img_binary)
-

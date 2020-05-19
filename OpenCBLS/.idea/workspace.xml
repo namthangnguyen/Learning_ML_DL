@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="7f442cec-b5f9-4917-ae3a-6c56f12a1bc8" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/OpenCBLS/climb/CSP.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/OpenCBLS/climb/HillClimbingSearch$AssignMove.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/OpenCBLS/climb/HillClimbingSearch.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/OpenCBLS/core/BasicEntity.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/OpenCBLS/core/VarInt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/OpenCBLS/localsearch/applications/CSP.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/OpenCBLS/localsearch/applications/Test.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/OpenCBLS/localsearch/applications/TestBug.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/OpenCBLS/localsearch/applications/bacp/BACP.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/OpenCBLS/localsearch/applications/binpacking2D/BinPacking2D.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/OpenCBLS/localsearch/applications/binpacking2D/Item.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/OpenCBLS/localsearch/applications/examplebook/BACP$Pair.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/OpenCBLS/localsearch/applications/examplebook/BACP.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/OpenCBLS/localsearch/applications/examplebook/BinPacking2D.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/OpenCBLS/localsearch/applications/examplebook/Examples$1Move.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/OpenCBLS/localsearch/applications/examplebook/Examples$2Move.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/OpenCBLS/localsearch/applications/examplebook/Examples.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/OpenCBLS/localsearch/applications/examplebook/MTDT.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/OpenCBLS/localsearch/applications/examplebook/SumArray.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/OpenCBLS/localsearch/applications/examplebook/TimeTabling$1Pair.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/OpenCBLS/localsearch/applications/examplebook/TimeTabling.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/OpenCBLS/localsearch/applications/mtdt/MTDT.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/OpenCBLS/localsearch/applications/queen/MyMove.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/OpenCBLS/localsearch/applications/queen/Queen.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/OpenCBLS/localsearch/applications/test/Test.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/OpenCBLS/localsearch/applications/timetabling/Busy.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/OpenCBLS/localsearch/applications/timetabling/Course.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/OpenCBLS/localsearch/applications/timetabling/Instructor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/OpenCBLS/localsearch/applications/timetabling/TimeTabling.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/OpenCBLS/localsearch/baitap/MySum.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/OpenCBLS/localsearch/common/OpenCBLS.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/OpenCBLS/localsearch/common/Utility.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/OpenCBLS/localsearch/constraints/alldifferent/AllDifferent.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/OpenCBLS/localsearch/constraints/alldifferent/AllDifferentFunctions.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/OpenCBLS/localsearch/constraints/alldifferent/AllDifferentVarIntLS.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/OpenCBLS/localsearch/constraints/atmost/AtMost.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/OpenCBLS/localsearch/constraints/atmost/AtmostConstraintInt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/OpenCBLS/localsearch/constraints/atmost/AtmostConstraintIntInt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/OpenCBLS/localsearch/constraints/atmost/AtmostFunInt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/OpenCBLS/localsearch/constraints/atmost/AtmostFunIntInt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/OpenCBLS/localsearch/constraints/atmost/AtmostVarintInt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/OpenCBLS/localsearch/constraints/atmost/AtmostVarintIntInt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/OpenCBLS/localsearch/constraints/basic/AND.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/OpenCBLS/localsearch/constraints/basic/Implicate.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/OpenCBLS/localsearch/constraints/basic/IsEqual.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/OpenCBLS/localsearch/constraints/basic/LessOrEqual.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/OpenCBLS/localsearch/constraints/basic/LessThan.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/OpenCBLS/localsearch/constraints/basic/NotEqual.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/OpenCBLS/localsearch/constraints/basic/NotOverLap.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/OpenCBLS/localsearch/constraints/basic/OR.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/OpenCBLS/localsearch/constraints/multiknapsack/MultiKnapsack.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/OpenCBLS/localsearch/functions/basic/ConstraintViolations.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/OpenCBLS/localsearch/functions/basic/FuncMinus.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/OpenCBLS/localsearch/functions/basic/FuncMult.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/OpenCBLS/localsearch/functions/basic/FuncPlus.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/OpenCBLS/localsearch/functions/basic/FuncVarConst.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/OpenCBLS/localsearch/functions/basic/div/DivVarConst.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/OpenCBLS/localsearch/functions/basic/mod/ModVarConst.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/OpenCBLS/localsearch/functions/conditionalsum/ConditionalSum.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/OpenCBLS/localsearch/functions/conditionalsum/ConditionalSumFuncFuncFunc.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/OpenCBLS/localsearch/functions/conditionalsum/ConditionalSumTmp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/OpenCBLS/localsearch/functions/conditionalsum/ConditionalSumVarInt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/OpenCBLS/localsearch/functions/element/Element.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/OpenCBLS/localsearch/functions/element/ElementConsFun.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/OpenCBLS/localsearch/functions/element/ElementTmp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/OpenCBLS/localsearch/functions/element/ElementTwoConstConstVarInt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/OpenCBLS/localsearch/functions/element/ElementVarFun.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/OpenCBLS/localsearch/functions/element/ElementVarVar.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/OpenCBLS/localsearch/functions/max_min/CompareMaxPair.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/OpenCBLS/localsearch/functions/max_min/CompareMinPair.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/OpenCBLS/localsearch/functions/max_min/FMax.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/OpenCBLS/localsearch/functions/max_min/FMin.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/OpenCBLS/localsearch/functions/max_min/Max.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/OpenCBLS/localsearch/functions/max_min/Min.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/OpenCBLS/localsearch/functions/max_min/Pair.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/OpenCBLS/localsearch/functions/occurrence/Occurrence.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/OpenCBLS/localsearch/functions/occurrence/OccurrenceFunctionConstant.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/OpenCBLS/localsearch/functions/occurrence/OccurrenceFunctionFunction.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/OpenCBLS/localsearch/functions/occurrence/OccurrenceVarIntLSConstant.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/OpenCBLS/localsearch/functions/occurrence/OccurrenceVarIntLSVarIntLS.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/OpenCBLS/localsearch/functions/sum/Sum.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/OpenCBLS/localsearch/functions/sum/SumFun.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/OpenCBLS/localsearch/functions/sum/SumFunConstraints.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/OpenCBLS/localsearch/functions/sum/SumVar.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/OpenCBLS/localsearch/functions/sum/SumVarConstraints.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/OpenCBLS/localsearch/invariants/ArgMax.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/OpenCBLS/localsearch/invariants/test_ArgMax.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/OpenCBLS/localsearch/model/AbstractInvariant.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/OpenCBLS/localsearch/model/Compare.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/OpenCBLS/localsearch/model/ConstraintSystem.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/OpenCBLS/localsearch/model/IConstraint.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/OpenCBLS/localsearch/model/IFloatFunction.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/OpenCBLS/localsearch/model/IFunction.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/OpenCBLS/localsearch/model/Invariant.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/OpenCBLS/localsearch/model/LocalSearchManager.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/OpenCBLS/localsearch/model/VarIntLS.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/OpenCBLS/localsearch/search/Move.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/OpenCBLS/localsearch/search/MoveType.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/OpenCBLS/localsearch/search/MultiStageGreedySearch.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/OpenCBLS/localsearch/search/OneVariableValueMove.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/OpenCBLS/localsearch/search/TabuSearch.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/OpenCBLS/localsearch/search/TwoVariablesSwapMove.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/OpenCBLS/localsearch/selectors/MaxSelector.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/OpenCBLS/localsearch/selectors/MinMaxSelector.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/OpenCBLS/queen/Move.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/OpenCBLS/queen/Queen.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/OpenCBLS/queen/QueenCBLS.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/OpenCBLS/queen/QueenLS.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tabu/TabuSearch.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectId" id="1YkRxL9nVP0T5i2CzukKAFEotq8" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="copyright" />
+  </component>
+  <component name="RecentsManager">
+    <key name="ExtractSuperBase.RECENT_KEYS">
+      <recent name="" />
+    </key>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7f442cec-b5f9-4917-ae3a-6c56f12a1bc8" name="Default Changelist" comment="" />
+      <created>1583484851180</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1583484851180</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="555" y="215" width="847" height="673" key="#Project_Structure" timestamp="1585399695730">
+      <screen x="0" y="28" width="1920" height="1052" />
+    </state>
+    <state x="555" y="215" width="847" height="673" key="#Project_Structure/0.28.1920.1052@0.28.1920.1052" timestamp="1585399695730" />
+    <state x="418" y="212" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1589881973915">
+      <screen x="0" y="28" width="1920" height="1052" />
+    </state>
+    <state x="418" y="212" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.28.1920.1052@0.28.1920.1052" timestamp="1589881973915" />
+    <state x="625" y="359" width="660" height="386" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1583906321402">
+      <screen x="0" y="28" width="1920" height="1052" />
+    </state>
+    <state x="625" y="359" width="660" height="386" key="#com.intellij.fileTypes.FileTypeChooser/0.28.1920.1052@0.28.1920.1052" timestamp="1583906321402" />
+    <state x="643" y="282" width="624" height="540" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1584281772106">
+      <screen x="0" y="28" width="1920" height="1052" />
+    </state>
+    <state x="643" y="282" width="624" height="540" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.28.1920.1052@0.28.1920.1052" timestamp="1584281772106" />
+    <state x="780" y="234" width="424" height="480" key="FileChooserDialogImpl" timestamp="1589882049542">
+      <screen x="0" y="28" width="1920" height="1052" />
+    </state>
+    <state x="780" y="234" width="424" height="480" key="FileChooserDialogImpl/0.28.1920.1052@0.28.1920.1052" timestamp="1589882049542" />
+    <state width="1874" height="224" key="GridCell.Tab.0.bottom" timestamp="1585108715881">
+      <screen x="0" y="28" width="1920" height="1052" />
+    </state>
+    <state width="1874" height="224" key="GridCell.Tab.0.bottom/0.28.1920.1052@0.28.1920.1052" timestamp="1585108715881" />
+    <state width="1874" height="224" key="GridCell.Tab.0.center" timestamp="1585108715881">
+      <screen x="0" y="28" width="1920" height="1052" />
+    </state>
+    <state width="1874" height="224" key="GridCell.Tab.0.center/0.28.1920.1052@0.28.1920.1052" timestamp="1585108715881" />
+    <state width="1874" height="224" key="GridCell.Tab.0.left" timestamp="1585108715881">
+      <screen x="0" y="28" width="1920" height="1052" />
+    </state>
+    <state width="1874" height="224" key="GridCell.Tab.0.left/0.28.1920.1052@0.28.1920.1052" timestamp="1585108715881" />
+    <state width="1874" height="224" key="GridCell.Tab.0.right" timestamp="1585108715881">
+      <screen x="0" y="28" width="1920" height="1052" />
+    </state>
+    <state width="1874" height="224" key="GridCell.Tab.0.right/0.28.1920.1052@0.28.1920.1052" timestamp="1585108715881" />
+    <state width="1874" height="344" key="GridCell.Tab.1.bottom" timestamp="1583906256529">
+      <screen x="0" y="28" width="1920" height="1052" />
+    </state>
+    <state width="1874" height="344" key="GridCell.Tab.1.bottom/0.28.1920.1052@0.28.1920.1052" timestamp="1583906256529" />
+    <state width="1874" height="344" key="GridCell.Tab.1.center" timestamp="1583906256529">
+      <screen x="0" y="28" width="1920" height="1052" />
+    </state>
+    <state width="1874" height="344" key="GridCell.Tab.1.center/0.28.1920.1052@0.28.1920.1052" timestamp="1583906256529" />
+    <state width="1874" height="344" key="GridCell.Tab.1.left" timestamp="1583906256529">
+      <screen x="0" y="28" width="1920" height="1052" />
+    </state>
+    <state width="1874" height="344" key="GridCell.Tab.1.left/0.28.1920.1052@0.28.1920.1052" timestamp="1583906256529" />
+    <state width="1874" height="344" key="GridCell.Tab.1.right" timestamp="1583906256529">
+      <screen x="0" y="28" width="1920" height="1052" />
+    </state>
+    <state width="1874" height="344" key="GridCell.Tab.1.right/0.28.1920.1052@0.28.1920.1052" timestamp="1583906256529" />
+    <state x="370" y="111" width="1255" height="730" key="SettingsEditor" timestamp="1589882061810">
+      <screen x="0" y="28" width="1920" height="1052" />
+    </state>
+    <state x="370" y="111" width="1255" height="730" key="SettingsEditor/0.28.1920.1052@0.28.1920.1052" timestamp="1589882061810" />
+    <state x="616" y="381" key="com.intellij.ide.util.TipDialog" timestamp="1585399686246">
+      <screen x="0" y="28" width="1920" height="1052" />
+    </state>
+    <state x="616" y="381" key="com.intellij.ide.util.TipDialog/0.28.1920.1052@0.28.1920.1052" timestamp="1585399686246" />
+    <state x="269" y="154" width="1372" height="795" key="new project wizard" timestamp="1589882099337">
+      <screen x="0" y="28" width="1920" height="1052" />
+    </state>
+    <state x="269" y="154" width="1372" height="795" key="new project wizard/0.28.1920.1052@0.28.1920.1052" timestamp="1589882099337" />
+    <state x="623" y="260" width="672" height="678" key="search.everywhere.popup" timestamp="1583907012436">
+      <screen x="0" y="28" width="1920" height="1052" />
+    </state>
+    <state x="623" y="260" width="672" height="678" key="search.everywhere.popup/0.28.1920.1052@0.28.1920.1052" timestamp="1583907012436" />
+  </component>
+</project>
